@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+body {
+  font-family: "VT323", monospace;
+}
+body canvas {
+  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+  background: rgb(152, 84, 255);
+}/*# sourceMappingURL=style.css.map */
