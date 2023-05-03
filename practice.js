@@ -1,0 +1,11 @@
+shapes=[
+    [
+        [0,0,0,0],
+        [1,1,1,1],
+        [0,0,0,0],
+        [0,0,0,0]
+    ],
+]
+shapaRotated=[...shapes[0].map((row)=>[...row])];
+console.log(shapes[0]);
+console.log(shapaRotated);

@@ -2,8 +2,16 @@
 $fuente: 'VT323', monospace
 body
     font-family: $fuente
+    overflow: hidden
+    display: flex
+    justify-content: space-around
+    align-items: center
+    width: 100vw
+    color: white
+    background: linear-gradient(to right, rgb(98, 98, 98),rgb(38, 38, 38))
+    .container-text
+        height: 100vh
     canvas
         border: 1px solid black
         border-radius: 5px
         box-shadow: 0 0 5px black
-        background: red
